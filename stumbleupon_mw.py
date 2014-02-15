@@ -16,7 +16,7 @@ def vectorize(vectorizer):
         analyzer='word',token_pattern=r'\w{1,}',ngram_range=(1, 2), use_idf=1,smooth_idf=1,sublinear_tf=1)
 
 def main():
-    traindata = load_data('./train.tsv', 2) 
-    testdata = load_data('./test.tsv', 2)
-    y = load_data('../data/train.tsv', -1)
+    traindata = load_data('./data/train.tsv', 2) 
+    testdata = load_data('./data/test.tsv', 2)
+    y = load_data('./data/train.tsv', -1)
     tfv = vectorize(TfidVectorizer)
