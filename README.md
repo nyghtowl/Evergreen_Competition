@@ -1,6 +1,5 @@
 ## Overview
 
-UPDATE: Second simulated Kaggle competition at Zipfian. Won this competition at school and got like 26th place after submitting.
 
 For this competition we will be attempting to classify whether a page is "evergreen" or not.  The Kaggle competition can be found here: [http://www.kaggle.com/c/stumbleupon](http://www.kaggle.com/c/stumbleupon).
 
